@@ -33,7 +33,7 @@ public class Capitulo2 {
     });
     */    
    
-    Consumer<Usuario> mostrador = u -> System.out.println(u.getNome());
+   // Consumer<Usuario> mostrador = u -> System.out.println(u.getNome());
     usuarios.forEach(u -> System.out.println(u.getNome()));
     usuarios.forEach(u -> u.setModerador(true));
     System.out.println("O usuário é moderador " + user1.isModerador());
